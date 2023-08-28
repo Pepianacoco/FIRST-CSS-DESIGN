@@ -1,0 +1,147 @@
+.img{
+    position: relative;
+    width: 500px;
+
+
+}
+.papaya{
+    width: 100%;
+    display: block;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: times new roman;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.15s ease-in-out;
+}
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlay > * {
+transform: translateY(20px);
+transition: 0.15s ease-in-out;
+}
+
+.overlay:hover > * {
+    transform: translateY(0);
+}
+
+.t2{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.t1{
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: 5px;
+
+    
+}
+.heading{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: inherit;
+    padding-bottom: 40px;
+}
+.p1{
+    font-size: 20px;
+    font-weight: 200;
+    width: 700px;
+}
+.heading1{
+    width: 700px;
+    margin-left: 30%;
+}
+.container {
+     display: flex;
+     align-items: center;
+     padding-left: 10px;
+     flex-direction: row;
+     margin-bottom: 50px;
+}
+.okra {
+    width: 500px;
+    height: 310px;
+    padding-left: 10px;
+    display: block;
+    transition: 0.15s ease-in-out;
+}
+.apple{
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 300px;
+    display: block;
+    transition: 0.15s ease-in-out;
+}
+.orange{
+    width: 450px;
+    height: 300px;
+    display: block;
+}
+.apple:hover {
+    transform: scale(1.1);
+    z-index: 2;
+    display: block;
+    transition: 0.15 ease-in-out;
+}
+.okra:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+.orange:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+.container2{
+    width: 700px;
+    font-size: 20px;
+    font-family: gorgia;
+    margin-bottom: 200px;
+}
+.text1 {
+    margin-bottom: 0;
+    color: brown;
+}
+.o {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.text2{
+    color: brown;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.a1 {
+    margin-top: 10px;
+}
+.a2 {
+    margin-top: 10px;
+}
+.a3{
+    margin-bottom: 50px;
+}
+.text3{
+    color: brown;
+    margin-bottom: 0;
+}
+.o1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.o3 {
+    margin-top: 0;
+}
